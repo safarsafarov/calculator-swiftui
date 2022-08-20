@@ -49,14 +49,14 @@ extension CalculatorView {
     }
     
     private var buttonPad: some View {
-        VStack {
-            ForEach(buttonTypes, id: \.self) { row in
-                HStack {
-                    ForEach(row, id: \.self) { buttonType in
-                        Button(buttonType.description) { }
+            VStack {
+                ForEach(buttonTypes, id: \.self) { row in
+                    HStack {
+                        ForEach(row, id: \.self) { buttonType in
+                            CalculatorButton(buttonType: buttonType)
+                        }
                     }
                 }
             }
         }
-    }
 }
