@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B62F71128B285830064497C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62F71028B285830064497C /* Constants.swift */; };
 		8BC44DFE28B0E804006C5F45 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC44DFD28B0E804006C5F45 /* CalculatorApp.swift */; };
 		8BC44E0228B0E808006C5F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC44E0128B0E808006C5F45 /* Assets.xcassets */; };
 		8BC44E0528B0E808006C5F45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC44E0428B0E808006C5F45 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B62F71028B285830064497C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8BC44DFA28B0E804006C5F45 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC44DFD28B0E804006C5F45 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		8BC44E0128B0E808006C5F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				8BC44E0128B0E808006C5F45 /* Assets.xcassets */,
 				8BC44E0328B0E808006C5F45 /* Preview Content */,
 				8BC44E0B28B0E8C8006C5F45 /* CalculatorView.swift */,
+				8B62F71028B285830064497C /* Constants.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				8BC44E1828B10097006C5F45 /* CalculatorButtonStyle.swift in Sources */,
 				8BC44DFE28B0E804006C5F45 /* CalculatorApp.swift in Sources */,
 				8BC44E1228B0F6F9006C5F45 /* Digit.swift in Sources */,
+				8B62F71128B285830064497C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = B79UKL97H2;
+				DEVELOPMENT_TEAM = 73DJK9R2PB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -332,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = anvar.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = "safar--.Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,10 +349,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = B79UKL97H2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -363,6 +367,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = anvar.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
