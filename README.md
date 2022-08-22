@@ -1,4 +1,4 @@
 # Calculator  SwiftUI
-<img src="./assets/images/tables.png" width=390 height=840>
+<img src="screenshot.png" width=390 height=840>
 
 
